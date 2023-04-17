@@ -1,7 +1,8 @@
-n = int(input())
+n = int(input("digite um número"))
 
 i = 1
 
-for i in n and i <= n:
-    print(f'{i**2}')
-    i = i + 1
+while i <= n:
+    print(i**2)
+    i = i +1
+
